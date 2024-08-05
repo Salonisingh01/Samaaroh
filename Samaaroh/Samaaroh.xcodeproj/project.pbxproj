@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C5B8BA82C578D980072661A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B8BA72C578D980072661A /* AppDelegate.swift */; };
+		1C5B8BAA2C578D980072661A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B8BA92C578D980072661A /* SceneDelegate.swift */; };
+		1C5B8BAC2C578D980072661A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B8BAB2C578D980072661A /* ViewController.swift */; };
+		1C5B8BAF2C578D980072661A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1C5B8BAE2C578D980072661A /* Base */; };
+		1C5B8BB12C578D990072661A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C5B8BB02C578D990072661A /* Assets.xcassets */; };
+		1C5B8BB42C578D990072661A /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 1C5B8BB32C578D990072661A /* Base */; };
+		1C5B8BBF2C578D990072661A /* SamaarohTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B8BBE2C578D990072661A /* SamaarohTests.swift */; };
+		1C5B8BC92C578D990072661A /* SamaarohUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B8BC82C578D990072661A /* SamaarohUITests.swift */; };
+		1C5B8BCB2C578D990072661A /* SamaarohUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B8BCA2C578D990072661A /* SamaarohUITestsLaunchTests.swift */; };
+		1C5B8BD82C5796540072661A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B8BD72C5796540072661A /* SignUpViewController.swift */; };
+		1C5B8BDA2C5798670072661A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5B8BD92C5798670072661A /* MainViewController.swift */; };
+		1C8A93CD2C5B6B28005D8087 /* YourTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8A93CC2C5B6B28005D8087 /* YourTicketViewController.swift */; };
+		1C8E0D752C59FE0800B88C12 /* Booking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8E0D742C59FE0800B88C12 /* Booking.swift */; };
+		1C8E0D772C5A068300B88C12 /* BookingConfirm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8E0D762C5A068300B88C12 /* BookingConfirm.swift */; };
+		1C8E0D792C5A170500B88C12 /* Movies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8E0D782C5A170500B88C12 /* Movies.swift */; };
+		1C8E0D7B2C5A32E700B88C12 /* DetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C8E0D7A2C5A32E700B88C12 /* DetailsCollectionViewCell.swift */; };
+		1CA1B1512C58A29400051CA7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1CA1B1502C58A29400051CA7 /* GoogleService-Info.plist */; };
+		1CA1B1542C58A44C00051CA7 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 1CA1B1532C58A44C00051CA7 /* FirebaseAnalytics */; };
+		1CA1B1562C58A44C00051CA7 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 1CA1B1552C58A44C00051CA7 /* FirebaseAppCheck */; };
+		1CA1B1582C58A44C00051CA7 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 1CA1B1572C58A44C00051CA7 /* FirebaseAuth */; };
+		1CA1B15A2C58A44C00051CA7 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 1CA1B1592C58A44C00051CA7 /* FirebaseDatabase */; };
+		1CA1B15C2C58A44C00051CA7 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 1CA1B15B2C58A44C00051CA7 /* FirebaseStorage */; };
+		1CAADAAA2C608F20007D1B48 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAADAA92C608F20007D1B48 /* ProfileViewController.swift */; };
+		1CAADAAC2C6091CA007D1B48 /* TicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAADAAB2C6091CA007D1B48 /* TicketsViewController.swift */; };
+		1CAADAAE2C609DD6007D1B48 /* PaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CAADAAD2C609DD6007D1B48 /* PaymentsViewController.swift */; };
+		1CCE2BE22C5B65CF0036A3BB /* selectSeatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CCE2BE12C5B65CF0036A3BB /* selectSeatsViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1C5B8BBB2C578D990072661A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C5B8B9C2C578D970072661A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C5B8BA32C578D980072661A;
+			remoteInfo = Samaaroh;
+		};
+		1C5B8BC52C578D990072661A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1C5B8B9C2C578D970072661A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1C5B8BA32C578D980072661A;
+			remoteInfo = Samaaroh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1C5B8BA42C578D980072661A /* Samaaroh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Samaaroh.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C5B8BA72C578D980072661A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1C5B8BA92C578D980072661A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1C5B8BAB2C578D980072661A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1C5B8BAE2C578D980072661A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1C5B8BB02C578D990072661A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1C5B8BB32C578D990072661A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1C5B8BB52C578D990072661A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C5B8BBA2C578D990072661A /* SamaarohTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamaarohTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C5B8BBE2C578D990072661A /* SamaarohTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamaarohTests.swift; sourceTree = "<group>"; };
+		1C5B8BC42C578D990072661A /* SamaarohUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamaarohUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C5B8BC82C578D990072661A /* SamaarohUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamaarohUITests.swift; sourceTree = "<group>"; };
+		1C5B8BCA2C578D990072661A /* SamaarohUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamaarohUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1C5B8BD72C5796540072661A /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		1C5B8BD92C5798670072661A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		1C8A93CC2C5B6B28005D8087 /* YourTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YourTicketViewController.swift; sourceTree = "<group>"; };
+		1C8E0D742C59FE0800B88C12 /* Booking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Booking.swift; sourceTree = "<group>"; };
+		1C8E0D762C5A068300B88C12 /* BookingConfirm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingConfirm.swift; sourceTree = "<group>"; };
+		1C8E0D782C5A170500B88C12 /* Movies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movies.swift; sourceTree = "<group>"; };
+		1C8E0D7A2C5A32E700B88C12 /* DetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		1CA1B1502C58A29400051CA7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1CAADAA92C608F20007D1B48 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		1CAADAAB2C6091CA007D1B48 /* TicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewController.swift; sourceTree = "<group>"; };
+		1CAADAAD2C609DD6007D1B48 /* PaymentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentsViewController.swift; sourceTree = "<group>"; };
+		1CCE2BE12C5B65CF0036A3BB /* selectSeatsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectSeatsViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C5B8BA12C578D980072661A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CA1B1562C58A44C00051CA7 /* FirebaseAppCheck in Frameworks */,
+				1CA1B1582C58A44C00051CA7 /* FirebaseAuth in Frameworks */,
+				1CA1B15A2C58A44C00051CA7 /* FirebaseDatabase in Frameworks */,
+				1CA1B15C2C58A44C00051CA7 /* FirebaseStorage in Frameworks */,
+				1CA1B1542C58A44C00051CA7 /* FirebaseAnalytics in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C5B8BB72C578D990072661A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C5B8BC12C578D990072661A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1C5B8B9B2C578D970072661A = {
+			isa = PBXGroup;
+			children = (
+				1C8E0D7A2C5A32E700B88C12 /* DetailsCollectionViewCell.swift */,
+				1C5B8BA62C578D980072661A /* Samaaroh */,
+				1C5B8BBD2C578D990072661A /* SamaarohTests */,
+				1C5B8BC72C578D990072661A /* SamaarohUITests */,
+				1C5B8BA52C578D980072661A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1C5B8BA52C578D980072661A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C5B8BA42C578D980072661A /* Samaaroh.app */,
+				1C5B8BBA2C578D990072661A /* SamaarohTests.xctest */,
+				1C5B8BC42C578D990072661A /* SamaarohUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1C5B8BA62C578D980072661A /* Samaaroh */ = {
+			isa = PBXGroup;
+			children = (
+				1C5B8BA72C578D980072661A /* AppDelegate.swift */,
+				1C5B8BD72C5796540072661A /* SignUpViewController.swift */,
+				1C8A93CC2C5B6B28005D8087 /* YourTicketViewController.swift */,
+				1CAADAAB2C6091CA007D1B48 /* TicketsViewController.swift */,
+				1C5B8BA92C578D980072661A /* SceneDelegate.swift */,
+				1C5B8BD92C5798670072661A /* MainViewController.swift */,
+				1CAADAAD2C609DD6007D1B48 /* PaymentsViewController.swift */,
+				1CCE2BE12C5B65CF0036A3BB /* selectSeatsViewController.swift */,
+				1C5B8BAB2C578D980072661A /* ViewController.swift */,
+				1C8E0D782C5A170500B88C12 /* Movies.swift */,
+				1CAADAA92C608F20007D1B48 /* ProfileViewController.swift */,
+				1C8E0D742C59FE0800B88C12 /* Booking.swift */,
+				1C8E0D762C5A068300B88C12 /* BookingConfirm.swift */,
+				1C5B8BAD2C578D980072661A /* Main.storyboard */,
+				1C5B8BB02C578D990072661A /* Assets.xcassets */,
+				1C5B8BB22C578D990072661A /* LaunchScreen.storyboard */,
+				1C5B8BB52C578D990072661A /* Info.plist */,
+				1CA1B1502C58A29400051CA7 /* GoogleService-Info.plist */,
+			);
+			path = Samaaroh;
+			sourceTree = "<group>";
+		};
+		1C5B8BBD2C578D990072661A /* SamaarohTests */ = {
+			isa = PBXGroup;
+			children = (
+				1C5B8BBE2C578D990072661A /* SamaarohTests.swift */,
+			);
+			path = SamaarohTests;
+			sourceTree = "<group>";
+		};
+		1C5B8BC72C578D990072661A /* SamaarohUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1C5B8BC82C578D990072661A /* SamaarohUITests.swift */,
+				1C5B8BCA2C578D990072661A /* SamaarohUITestsLaunchTests.swift */,
+			);
+			path = SamaarohUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1C5B8BA32C578D980072661A /* Samaaroh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C5B8BCE2C578D990072661A /* Build configuration list for PBXNativeTarget "Samaaroh" */;
+			buildPhases = (
+				1C5B8BA02C578D980072661A /* Sources */,
+				1C5B8BA12C578D980072661A /* Frameworks */,
+				1C5B8BA22C578D980072661A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Samaaroh;
+			packageProductDependencies = (
+				1CA1B1532C58A44C00051CA7 /* FirebaseAnalytics */,
+				1CA1B1552C58A44C00051CA7 /* FirebaseAppCheck */,
+				1CA1B1572C58A44C00051CA7 /* FirebaseAuth */,
+				1CA1B1592C58A44C00051CA7 /* FirebaseDatabase */,
+				1CA1B15B2C58A44C00051CA7 /* FirebaseStorage */,
+			);
+			productName = Samaaroh;
+			productReference = 1C5B8BA42C578D980072661A /* Samaaroh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1C5B8BB92C578D990072661A /* SamaarohTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C5B8BD12C578D990072661A /* Build configuration list for PBXNativeTarget "SamaarohTests" */;
+			buildPhases = (
+				1C5B8BB62C578D990072661A /* Sources */,
+				1C5B8BB72C578D990072661A /* Frameworks */,
+				1C5B8BB82C578D990072661A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C5B8BBC2C578D990072661A /* PBXTargetDependency */,
+			);
+			name = SamaarohTests;
+			productName = SamaarohTests;
+			productReference = 1C5B8BBA2C578D990072661A /* SamaarohTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1C5B8BC32C578D990072661A /* SamaarohUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1C5B8BD42C578D990072661A /* Build configuration list for PBXNativeTarget "SamaarohUITests" */;
+			buildPhases = (
+				1C5B8BC02C578D990072661A /* Sources */,
+				1C5B8BC12C578D990072661A /* Frameworks */,
+				1C5B8BC22C578D990072661A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C5B8BC62C578D990072661A /* PBXTargetDependency */,
+			);
+			name = SamaarohUITests;
+			productName = SamaarohUITests;
+			productReference = 1C5B8BC42C578D990072661A /* SamaarohUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1C5B8B9C2C578D970072661A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					1C5B8BA32C578D980072661A = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					1C5B8BB92C578D990072661A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1C5B8BA32C578D980072661A;
+					};
+					1C5B8BC32C578D990072661A = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 1C5B8BA32C578D980072661A;
+					};
+				};
+			};
+			buildConfigurationList = 1C5B8B9F2C578D970072661A /* Build configuration list for PBXProject "Samaaroh" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1C5B8B9B2C578D970072661A;
+			packageReferences = (
+				1CA1B1522C58A44C00051CA7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 1C5B8BA52C578D980072661A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1C5B8BA32C578D980072661A /* Samaaroh */,
+				1C5B8BB92C578D990072661A /* SamaarohTests */,
+				1C5B8BC32C578D990072661A /* SamaarohUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1C5B8BA22C578D980072661A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C5B8BB12C578D990072661A /* Assets.xcassets in Resources */,
+				1CA1B1512C58A29400051CA7 /* GoogleService-Info.plist in Resources */,
+				1C5B8BB42C578D990072661A /* Base in Resources */,
+				1C5B8BAF2C578D980072661A /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C5B8BB82C578D990072661A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C5B8BC22C578D990072661A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1C5B8BA02C578D980072661A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C5B8BAC2C578D980072661A /* ViewController.swift in Sources */,
+				1CAADAAE2C609DD6007D1B48 /* PaymentsViewController.swift in Sources */,
+				1C5B8BA82C578D980072661A /* AppDelegate.swift in Sources */,
+				1C8A93CD2C5B6B28005D8087 /* YourTicketViewController.swift in Sources */,
+				1C8E0D752C59FE0800B88C12 /* Booking.swift in Sources */,
+				1C5B8BD82C5796540072661A /* SignUpViewController.swift in Sources */,
+				1C5B8BAA2C578D980072661A /* SceneDelegate.swift in Sources */,
+				1CAADAAA2C608F20007D1B48 /* ProfileViewController.swift in Sources */,
+				1C8E0D7B2C5A32E700B88C12 /* DetailsCollectionViewCell.swift in Sources */,
+				1C8E0D792C5A170500B88C12 /* Movies.swift in Sources */,
+				1CCE2BE22C5B65CF0036A3BB /* selectSeatsViewController.swift in Sources */,
+				1C5B8BDA2C5798670072661A /* MainViewController.swift in Sources */,
+				1C8E0D772C5A068300B88C12 /* BookingConfirm.swift in Sources */,
+				1CAADAAC2C6091CA007D1B48 /* TicketsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C5B8BB62C578D990072661A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C5B8BBF2C578D990072661A /* SamaarohTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1C5B8BC02C578D990072661A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C5B8BCB2C578D990072661A /* SamaarohUITestsLaunchTests.swift in Sources */,
+				1C5B8BC92C578D990072661A /* SamaarohUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1C5B8BBC2C578D990072661A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C5B8BA32C578D980072661A /* Samaaroh */;
+			targetProxy = 1C5B8BBB2C578D990072661A /* PBXContainerItemProxy */;
+		};
+		1C5B8BC62C578D990072661A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1C5B8BA32C578D980072661A /* Samaaroh */;
+			targetProxy = 1C5B8BC52C578D990072661A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1C5B8BAD2C578D980072661A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C5B8BAE2C578D980072661A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1C5B8BB22C578D990072661A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1C5B8BB32C578D990072661A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1C5B8BCC2C578D990072661A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1C5B8BCD2C578D990072661A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1C5B8BCF2C578D990072661A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Samaaroh/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saloni.Samaaroh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1C5B8BD02C578D990072661A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Samaaroh/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saloni.Samaaroh;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1C5B8BD22C578D990072661A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saloni.SamaarohTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Samaaroh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Samaaroh";
+			};
+			name = Debug;
+		};
+		1C5B8BD32C578D990072661A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saloni.SamaarohTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Samaaroh.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Samaaroh";
+			};
+			name = Release;
+		};
+		1C5B8BD52C578D990072661A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saloni.SamaarohUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Samaaroh;
+			};
+			name = Debug;
+		};
+		1C5B8BD62C578D990072661A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saloni.SamaarohUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Samaaroh;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1C5B8B9F2C578D970072661A /* Build configuration list for PBXProject "Samaaroh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C5B8BCC2C578D990072661A /* Debug */,
+				1C5B8BCD2C578D990072661A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C5B8BCE2C578D990072661A /* Build configuration list for PBXNativeTarget "Samaaroh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C5B8BCF2C578D990072661A /* Debug */,
+				1C5B8BD02C578D990072661A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C5B8BD12C578D990072661A /* Build configuration list for PBXNativeTarget "SamaarohTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C5B8BD22C578D990072661A /* Debug */,
+				1C5B8BD32C578D990072661A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1C5B8BD42C578D990072661A /* Build configuration list for PBXNativeTarget "SamaarohUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1C5B8BD52C578D990072661A /* Debug */,
+				1C5B8BD62C578D990072661A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1CA1B1522C58A44C00051CA7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.29.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1CA1B1532C58A44C00051CA7 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1CA1B1522C58A44C00051CA7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		1CA1B1552C58A44C00051CA7 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1CA1B1522C58A44C00051CA7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		1CA1B1572C58A44C00051CA7 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1CA1B1522C58A44C00051CA7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		1CA1B1592C58A44C00051CA7 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1CA1B1522C58A44C00051CA7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		1CA1B15B2C58A44C00051CA7 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1CA1B1522C58A44C00051CA7 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 1C5B8B9C2C578D970072661A /* Project object */;
+}
